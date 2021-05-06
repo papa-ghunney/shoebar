@@ -1,0 +1,21 @@
+.container{
+    width: 100%;
+    margin-right: 4rem;
+    padding-right: 2rem;
+}
+
+.productImg{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.info-text h3{
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.info-text span{
+    color:royalblue;
+    margin-left: 10px;
+}

@@ -1,0 +1,51 @@
+.navbar{
+    padding: 2% 7% 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    max-width: 1600px;
+    height: 80px;
+    background: #fff;
+    border: solid #BDBDBD 0; 
+	box-shadow: 5px 3px 12px rgba(0, 0, 0, 0.2)  ; 
+	-webkit-box-shadow: 5px 3px 12px rgba(0, 0, 0, 0.2)  ; 
+    
+}
+
+.logo2 a{
+   color: #924040;
+   text-decoration: none;
+   font-size: 2rem;
+   font-family: 'Dancing Script', sans-serif;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+   
+}
+
+.nav-item{
+    margin-left: 5rem;
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: rgb(8, 5, 5);
+}
+
+.search-cart{
+    display: flex;
+}
+
+.search-cart input {
+    padding: 12px 20px;
+    align-self: center;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    border: 2px solid #e3e3e3;
+    outline:none;
+}
+.cart{
+    height: 35px;
+    margin-left: 2rem;
+}

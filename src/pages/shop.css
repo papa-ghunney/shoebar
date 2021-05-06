@@ -1,0 +1,17 @@
+.container{
+   
+}
+
+.container h2{
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.productsList{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+

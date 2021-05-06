@@ -1,0 +1,40 @@
+/* Team Section */
+.team{
+	height: 500px;
+}
+.team-container{
+	margin: 2rem;
+}
+
+.row{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+}
+
+.leftColumn{
+	width: 100%;
+	align-self: center;
+}
+.leftColumn p{
+	font-family: 'Montserrat';
+	margin-left: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+.team-title{
+	font-family: 'Dancing Script';
+	font-size: 2.5rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.rightColumn{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.team-img{
+	height: 400px;
+	margin-left: 1.5rem;
+}

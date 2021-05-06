@@ -1,0 +1,102 @@
+.info{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: 500px;
+
+}
+
+.leftColumn{
+    flex: 5;
+    display: inline-block;
+    font-family: 'Monteserrat', sans-serif;
+    max-width: 500px;
+    margin-right: 2rem;
+}
+
+.rightColumn{
+    flex: 5;
+    font-family: 'Monteserrat', sans-serif;
+}
+
+.enquiryContainer{
+    padding: 50px;
+    position: absolute;
+    display:inline-block;
+    z-index: 2;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    margin-top: -100px;
+    -webkit-box-shadow: 0 5px 20px -5px rgb(0 0 0 / 10%);
+    box-shadow: 0 5px 20px -5px rgb(0 0 0 / 10%);
+    background-color: #fff;
+}
+
+.topic{
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+    color: #364d59 !important;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.7;
+    
+}
+
+::placeholder{
+    color: #000d1a;
+}
+
+.form-group .btn{
+    padding: 15px 10px;
+    width: 100%;
+    background-color:#a76363;
+    color: rgb(34, 32, 32);
+    border: none;
+    outline: none;
+}
+.form-group .btn:hover{
+    background-color:#463333;
+    color: #fff;
+}
+
+.form-control{
+    height: 55px;
+    width: 100%;
+    border-radius: 4px;
+    background: hsl(210, 14%, 83%);
+    outline: none;
+    border: none;
+    padding-left: 10px;
+   
+}
+
+
+
+.form-control:focus{
+    outline: none;
+}
+
+.desc-title{
+   
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 2rem 1rem;
+    
+}
+
+.desc{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: -2rem;
+}
+
